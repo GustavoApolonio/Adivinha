@@ -1,0 +1,42 @@
+﻿// Console.WriteLine(@"
+// +---------------------+
+// |    O que é o que    |
+// +---------------------+");
+Console.Clear();
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine("+---------------------+");
+Console.Write("|   ");
+Console.ResetColor();
+Console.Write("O que é o que");
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine("     |");
+Console.WriteLine("+---------------------+");
+Console.ResetColor();
+Console.Write("Quando ");
+Thread.Sleep(300);
+Console.Write("dizemos ");
+Thread.Sleep(300);
+Console.Write("seu ");
+Thread.Sleep(300);
+Console.Write("nome, ");
+Thread.Sleep(500);
+Console.Write("ele ");
+Thread.Sleep(250);
+Console.Write("deixa ");
+Thread.Sleep(250);
+Console.Write("de ");
+Thread.Sleep(250);
+Console.WriteLine("existir");
+Thread.Sleep(1000);
+Console.Write(".");
+Thread.Sleep(1000);
+Console.Write(".");
+Thread.Sleep(1000);
+Console.Write(".");
+Thread.Sleep(1000);
+Console.Write(".");
+Thread.Sleep(1000);
+Console.WriteLine(".");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("O Silêncio");
+Console.ResetColor();
